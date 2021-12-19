@@ -19,7 +19,9 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ForgotpasswordComponent } from './pages/forgotpassword/forgotpassword.component';
 import { CleanComponent } from './pages/services/clean/clean.component';
 import { GardenerComponent } from './pages/services/gardener/gardener.component';
+import { PropertyComponent } from './pages/services/property/property.component';
 import { FinishingComponent } from './pages/services/finishing/finishing.component';
+import { AlmuniumComponent } from './pages/services/almunium/almunium.component';
 import { HandymanComponent } from './pages/services/handyman/handyman.component';
 import { PlumberComponent } from './pages/services/plumber/plumber.component';
 import { SecurityComponent } from './pages/services/security/security.component';
@@ -63,6 +65,8 @@ import { ProfessinalsComponent, ProfessionalDialog } from './pages/dashboard/pro
     CleanComponent,
     GardenerComponent,
     FinishingComponent,
+    PropertyComponent,
+    AlmuniumComponent,
     HandymanComponent,
     PlumberComponent,
     SecurityComponent,

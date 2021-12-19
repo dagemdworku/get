@@ -19,10 +19,10 @@ export class AppComponent implements OnInit, OnDestroy {
   showHead = true;
 
   services = [
-    // {
-    //   name: 'getCleaner',
-    //   url: 'clean',
-    // },
+    {
+      name: 'getAlmunium',
+      url: 'almunium',
+    },
     {
       name: 'getPlumbing',
       url: 'plumber'
@@ -31,10 +31,10 @@ export class AppComponent implements OnInit, OnDestroy {
        name: 'getfinishing',
        url: 'finishing'
     },
-    // {
-    //   name: 'getSecurity',
-    //   url: 'security',
-    // },
+    {
+      name: 'getproperty mgt',
+      url: 'property',
+    },
     {
       name: 'getHandyman',
       url: 'handyman'
@@ -66,10 +66,10 @@ export class AppComponent implements OnInit, OnDestroy {
       name: 'Home',
       address: '/'
     },
-    // {
-    //   name: 'getClean',
-    //   address: '/clean'
-    // },
+    {
+      name: 'getAlmunium',
+      url: 'almunium',
+    },
     {
       name: 'getPlumber',
       address: '/plumber'
@@ -77,6 +77,10 @@ export class AppComponent implements OnInit, OnDestroy {
      {
       name: 'getFinishing',
       address: '/finishing'
+    },
+    {
+      name: 'getproperty mgt',
+      url: 'property',
     },
     // {
     //   name: 'getSecurity',
