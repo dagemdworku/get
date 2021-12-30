@@ -81,10 +81,10 @@ export class AlmuniumComponent implements OnInit {
   menu = {
     home: {
       value: 'Finishing Works service',
-      title: 'Almunium Works',
+      title: 'For all your Almunium Works',
       options: [
         {
-          choice: 'Get Almunium Work',
+          choice: 'getAlmunium Work',
           next: 'aaaa'
         }
       ]
@@ -92,7 +92,7 @@ export class AlmuniumComponent implements OnInit {
     aaaa: {
       value: 'Call us',
       title: 'Call us on...',
-      msg: '8888'
+      msg: '0901 173102 | 0901 173202'
     },
     aaab: {
       value: 'Attach Photo',

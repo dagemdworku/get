@@ -84,14 +84,29 @@ export class ServiceDialogComponent {
     } else {
       var url = '';
       switch (this.title) {
-        case 'Cleaner':
-          url = 'clean';
-          break;
+        case 'almunium':
+         url = 'almunium';
+        break;
+        case 'getAlmunium':
+         url = 'almunium';
+        break;
+        case 'getalmunium':
+         url = 'almunium';
+        break;
+        case 'Almunium':
+         url = 'almunium';
+        break;
         case 'Electrician':
           url = 'electrician';
           break;
         case 'Plumber':
           url = 'plumber';
+          break;
+        case 'Finishing':
+            url = 'finishing';
+            break;
+        case 'Property':
+          url = 'property';
           break;
         case 'Gardener':
           url = 'gardener';

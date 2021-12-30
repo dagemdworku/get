@@ -68,7 +68,7 @@ export class AppComponent implements OnInit, OnDestroy {
     },
     {
       name: 'getAlmunium',
-      url: 'almunium',
+      url: '/almunium',
     },
     {
       name: 'getPlumber',
@@ -79,8 +79,8 @@ export class AppComponent implements OnInit, OnDestroy {
       address: '/finishing'
     },
     {
-      name: 'getproperty mgt',
-      url: 'property',
+      name: 'getProperty mgt',
+      url: '/property',
     },
     // {
     //   name: 'getSecurity',

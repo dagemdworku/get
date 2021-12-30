@@ -6,7 +6,7 @@
 .head {
     height: 200px;
     background-color: black;
-    background-image: url('/assets/finish.png');
+    background-image: url('/assets/pro.png');
 
     /* background-size: cover; */
     background-position: right;
@@ -125,7 +125,7 @@ mat-form-field {
     height: 100%;
     padding: 25px;
     border-radius: 4px;
-    background-image: url('/assets/tile.jpg');
+    background-image: url('/assets/property.jpg');
 
     background-size: cover;
     background-position: right;

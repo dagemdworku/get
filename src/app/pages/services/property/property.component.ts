@@ -81,10 +81,10 @@ export class PropertyComponent implements OnInit {
   menu = {
     home: {
       value: 'Finishing Works service',
-      title: 'Get Your Property Managed',
+      title: 'We give full pledged property service as per your demand.',
       options: [
         {
-          choice: 'Get Your Property Managed',
+          choice: 'Buy, sell, rent, manage, maintain and so on Contact us for more information.',
           next: 'aaaa'
         }
       ]

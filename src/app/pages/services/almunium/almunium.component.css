@@ -6,7 +6,7 @@
 .head {
     height: 200px;
     background-color: black;
-    background-image: url('/assets/finish.png');
+    background-image: url('/assets/alm.png');
 
     /* background-size: cover; */
     background-position: right;
@@ -99,7 +99,7 @@ mat-form-field {
     width: 100%;
 }
 .display-phone {
-    font-size: 300%;
+    font-size: 200%;
     margin-bottom: 50px;
 }
 
@@ -125,7 +125,7 @@ mat-form-field {
     height: 100%;
     padding: 25px;
     border-radius: 4px;
-    background-image: url('/assets/tile.jpg');
+    background-image: url('/assets/Aluminum.jpg');
 
     background-size: cover;
     background-position: right;
