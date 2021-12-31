@@ -21,7 +21,13 @@ export class RegisterComponent implements OnInit {
     'Plubmer',
     'Welder',
     'painter',
-    'Handyman'
+    'Handyman',
+    'Almunium',
+    'Finishing',
+    'Cermaic',
+    'Cleaner',
+    'Gypsum'
+
   ];
   experiances = [
     'Less than 6 Months',

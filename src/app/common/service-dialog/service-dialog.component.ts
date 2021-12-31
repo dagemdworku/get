@@ -84,7 +84,7 @@ export class ServiceDialogComponent {
     } else {
       var url = '';
       switch (this.title) {
-        case 'almunium':
+        case 'Almunium':
          url = 'almunium';
         break;
         case 'getAlmunium':
@@ -105,7 +105,7 @@ export class ServiceDialogComponent {
         case 'Finishing':
             url = 'finishing';
             break;
-        case 'Property':
+        case 'Propertymgt':
           url = 'property';
           break;
         case 'Gardener':

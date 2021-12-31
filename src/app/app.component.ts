@@ -20,12 +20,29 @@ export class AppComponent implements OnInit, OnDestroy {
 
   services = [
     {
-      name: 'getAlmunium',
-      url: 'almunium',
+      name: 'getWelder',
+      url: 'welder'
+    },
+   {
+      name: 'getPainter',
+      url: 'painter'
+    },
+    {
+      name: 'getHandyman',
+      url: 'handyman'
+    },
+   
+    {
+      name: 'getElectrician',
+      url: 'electrician'
     },
     {
       name: 'getPlumbing',
       url: 'plumber'
+    },
+    {
+      name: 'getAlmunium',
+      url: 'almunium',
     },
      {
        name: 'getfinishing',
@@ -36,24 +53,8 @@ export class AppComponent implements OnInit, OnDestroy {
       url: 'property',
     },
     {
-      name: 'getHandyman',
-      url: 'handyman'
-    },
-    {
-      name: 'getPainter',
-      url: 'painter'
-    },
-    {
-      name: 'getElectrician',
-      url: 'electrician'
-    },
-    {
       name: 'getRepair and Maintenance',
       url: 'repairandmaintenance'
-    },
-    {
-      name: 'getWelder',
-      url: 'welder'
     }
   ];
 
@@ -67,21 +68,16 @@ export class AppComponent implements OnInit, OnDestroy {
       address: '/'
     },
     {
-      name: 'getAlmunium',
-      url: '/almunium',
+      name: 'getWelder',
+      address: '/welder'
     },
+    
     {
       name: 'getPlumber',
       address: '/plumber'
     },
-     {
-      name: 'getFinishing',
-      address: '/finishing'
-    },
-    {
-      name: 'getProperty mgt',
-      url: '/property',
-    },
+     
+    
     // {
     //   name: 'getSecurity',
     //   address: '/security'
@@ -99,21 +95,30 @@ export class AppComponent implements OnInit, OnDestroy {
       address: '/electrician'
     },
     {
-      name: 'getRepair and Maintenance',
-      address: '/repairandmaintenance'
+      name: 'getFinishing',
+      address: '/finishing'
     },
     {
-      name: 'getWelder',
-      address: '/welder'
+      name: 'getAlmunium',
+      url: '/almunium'
+    },
+    {
+      name: 'getProperty mgt',
+      url: '/property'
+    },
+    {
+      name: 'getRepair and Maintenance',
+      address: '/repairandmaintenance'
     }
-    // {
-    //   name: 'About Us',
-    //   address: '/about'
-    // },
-    // {
-    //   name: 'Contact',
-    //   address: '/contact'
-    // }
+  //  , 
+  //   {
+  //     name: 'About Us',
+  //     address: '/about'
+  //   },
+  //   {
+  //     name: 'Contact',
+  //     address: '/contact'
+  //   }
   ]
 
   private _tabQueryListener: () => void;
