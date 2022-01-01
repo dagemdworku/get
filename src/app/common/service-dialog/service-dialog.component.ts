@@ -87,15 +87,6 @@ export class ServiceDialogComponent {
         case 'Almunium':
          url = 'almunium';
         break;
-        case 'getAlmunium':
-         url = 'almunium';
-        break;
-        case 'getalmunium':
-         url = 'almunium';
-        break;
-        case 'Almunium':
-         url = 'almunium';
-        break;
         case 'Electrician':
           url = 'electrician';
           break;

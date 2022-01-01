@@ -100,11 +100,11 @@ export class AppComponent implements OnInit, OnDestroy {
     },
     {
       name: 'getAlmunium',
-      url: '/almunium'
+      address: '/almunium'
     },
     {
       name: 'getProperty mgt',
-      url: '/property'
+      address: '/property'
     },
     {
       name: 'getRepair and Maintenance',
